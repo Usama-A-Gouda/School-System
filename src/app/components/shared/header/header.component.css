@@ -1,0 +1,16 @@
+mat-icon {
+    margin-right: 10px;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: .8;
+}
+
+mat-toolbar span {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.right-item {
+    margin-left: auto;
+    width: fit-content;
+}

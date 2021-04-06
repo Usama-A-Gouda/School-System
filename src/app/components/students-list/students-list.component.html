@@ -1,0 +1,23 @@
+<div class="container">
+
+    <h3>Students Details </h3>
+    <table>
+        <thead>
+            <ng-container *ngFor="let header of tabelHeaders">
+                <th>{{header}}</th>
+            </ng-container>
+        </thead>
+        <tbody>
+            <tr *ngFor="let student of students; index as i;">
+                <td>{{ i + 1 }}</td>
+                <td>{{student.first_name}}</td>
+                <td>{{student.last_name}}</td>
+                <td><a routerLink='/student-infromation/{{student.id}}' mat-raised-button color="primary">View More </a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <mat-paginator [length]="totalStudents" [pageSize]="studentsPerPage" [pageSizeOptions]="pageSizeOptions" (page)="onPageChanging($event)">
+    </mat-paginator>
+    <p> Page {{currentPageNumber}} of {{totalPages}}</p>
+</div>

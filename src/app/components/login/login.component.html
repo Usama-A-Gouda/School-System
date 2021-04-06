@@ -1,0 +1,16 @@
+<form (submit)="
+        $event.preventDefault() ;
+        onFormSumiting(emailInput.value,passwordInput.value);
+        ">
+    <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Enter your email" #emailInput>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input type="password" matInput placeholder="Enter your password" #passwordInput>
+    </mat-form-field>
+    <button type="submit" mat-stroked-button color="primary">Submit</button>
+
+</form>

@@ -1,0 +1,19 @@
+<mat-card>
+    <img mat-card-avatar src="{{student.avatar}}" />
+    <mat-card-header>
+        <mat-card-title>
+            Name | {{student.first_name}} {{student.last_name}}
+        </mat-card-title>
+        <mat-card-subtitle>
+            Email | {{student.email}}
+
+        </mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+        Student ID : {{student.id}}
+    </mat-card-content>
+    <mat-card-actions>
+        <button routerLink="/students-list" mat-flat-button color="primary">Back to all students</button>
+    </mat-card-actions>
+</mat-card>

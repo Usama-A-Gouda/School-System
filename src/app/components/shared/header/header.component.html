@@ -1,0 +1,9 @@
+<mat-toolbar>
+
+    <mat-icon>home</mat-icon>
+    <span>School System</span>
+    <button *ngIf="isLogged" (click)="onLogout()" class="right-item" mat-icon-button>
+    Logout
+    <mat-icon>logout</mat-icon>
+  </button>
+</mat-toolbar>

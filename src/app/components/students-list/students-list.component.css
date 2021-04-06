@@ -1,0 +1,61 @@
+h3 {
+    margin: 1rem 0 0;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #424642;
+}
+
+thead th,
+tbody td {
+    padding: 20px;
+}
+
+thead th {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+tbody td {
+    border-top: 1px solid black;
+    font-size: 1.1rem;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #bbbbbb;
+}
+
+td a {
+    text-decoration: none;
+}
+
+td a:hover {
+    color: white;
+    background-color: #084177;
+}
+
+mat-paginator {
+    width: 70%;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+p {
+    margin-left: 3rem;
+    display: inline-block;
+}
+
+mat-spinner {
+    margin: 10% auto;
+}
