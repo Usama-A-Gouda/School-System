@@ -11,6 +11,7 @@ This repo for a school system task for SIA company with this features :
 
 ## How to run project?
 
+- Run `npm install` to install all packages
 - Run `ng serve --open` to open project in the browser.
 - You will see login form , Enter the following : 
   - Email : admin@admin.com
