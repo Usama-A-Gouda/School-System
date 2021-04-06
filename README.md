@@ -1,4 +1,4 @@
-# SchoolSystem
+# School System
 
 This repo for a school system task for SIA company with this features : 
 
